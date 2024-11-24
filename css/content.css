@@ -1,0 +1,49 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex: 70%;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+}
+
+.main h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: var(--color-primary);
+}
+
+.main img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover; /*Para que no se deforme la imagen*/
+}
+
+.main .read-more{
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .read-more:hover{
+    background-color: var(--color-primary-dark);
+    color: var(--color-secondary);
+    transition: all 0.4s;
+}
+
+#more-post{
+    display: block;
+    color: var(--color-primary);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#more-post:hover{
+    color: var(--color-primary-dark);
+}

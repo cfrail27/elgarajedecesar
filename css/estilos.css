@@ -1,0 +1,15 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+@import "content.css";
+@import "footer.css";
+@import "flipcard.css";
+
+
+@media screen and (max-width: 700px){ /*Cuando sea más pequeño de 700 el menú se pondrá en columna uno debajo de otro*/
+    .navbar, .row{
+        flex-direction: column;
+    }
+}

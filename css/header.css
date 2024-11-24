@@ -1,0 +1,24 @@
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagenes/header.jpg);
+    background-repeat: no-repeat; /*Para que no repita la imagen del header cuando esta se acabe*/
+    background-size: cover; /*Para que cubra todo el header con la imagen de fondo sin deformarse la imagen*/
+}
+
+header h1{
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+
+header p{
+    margin: 0 0 10px;
+}
+
+header div{
+    background-color: rgba(63, 63, 63, 0.7); /*Para dar un fondo transparentoso*/
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
